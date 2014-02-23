@@ -44,7 +44,7 @@ range(10) | even | divisible(3) | display
 
 ```python
 #convert bool functions into pypline members
-from pypline import pypeline conversion
+from pypline import pypline_conversion
 from pypline import display
 
 @pypline_conversion
