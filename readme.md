@@ -42,7 +42,20 @@ def divisible(iter, divis_value):
 range(10) | even | divisible(3) | display
 ```
 
+```python
+#convert bool functions into pypline members
+from pypline import pypeline conversion
+from pypline import display
+
+@pypline_conversion
+def even(value):
+    return value % 2 == 0
+
+range(10) | even | display
+```
+
 Convenience Functions
 ---------------------
-* `sort`<br>takes an optional key function (exactly like sorted)
-* `display`<br>takes an optional file argument for redirecting
+* `sort` - sort pypline <br>takes an optional key function (exactly like sorted)
+* `display` - print to terminal<br>takes an optional file argument for redirecting
+* `reverse` - reverse pypline
